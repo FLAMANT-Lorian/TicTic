@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:tictic/constants/fonts.dart';
+
+import 'fonts.dart' show kButtonTextStyle;
+
 
 const kMainColor = Color.fromRGBO(52, 78, 65, 1);
 const kSecondaryColor = Color.fromRGBO(88, 129, 87, 1);
