@@ -1,4 +1,4 @@
-const kLogoSizeWelcome = 150.0;
+const kLogoRatioWelcome = 0.15;
 const kVerticalSpacing = 20.0;
 const kTextSliderHeight = 50.0;
 
