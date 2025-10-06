@@ -1,12 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:tictic/constants/colors.dart';
 import 'package:tictic/constants/sizes.dart';
+import 'package:tictic/screens/welcome/widgets/call_to_actions.dart';
 import 'package:tictic/screens/welcome/widgets/logo_welcome.dart';
 import 'package:tictic/screens/welcome/widgets/text_divider.dart';
 import 'package:tictic/screens/welcome/widgets/text_slider_with_bullets.dart';
 
 class Welcome extends StatelessWidget {
   const Welcome({super.key});
+  static const String routeName = '/';
 
   @override
   Widget build(BuildContext context) {
@@ -28,35 +30,8 @@ class Welcome extends StatelessWidget {
               SizedBox(height: kVerticalPadding),
               TextSliderWithBullets(),
               Spacer(),
-              // Fait un espace au millieu avec toute la place restante
-              ElevatedButton(
-                onPressed: () {},
-                style: ElevatedButton.styleFrom(backgroundColor: kMainColor),
-                child: Text('Continuer sans compte'),
-              ),
-              SizedBox(height: kVerticalPadding),
-              TextDivider(text: 'OU'),
-              SizedBox(height: kVerticalPadding),
-              SingleChildScrollView(
-                scrollDirection: Axis.horizontal,
-                child: Padding(
-                  padding: const EdgeInsets.symmetric(horizontal: kHorizontalPadding),
-                  child: Row(
-                    children: [
-                      ElevatedButton(
-                        onPressed: () {},
-                        child: Text('Je me connecte'),
-                      ),
-                      SizedBox(width: kHorizontalPadding),
-                      // Faire un espace d'un width défini
-                      ElevatedButton(
-                        onPressed: () {},
-                        child: Text('Créer mon compte'),
-                      ),
-                    ],
-                  ),
-                ),
-              ),
+              // Fait un espace au millieu avec toute la place restante (Spacer())
+              CallToActions(),
             ],
           ),
         ),
