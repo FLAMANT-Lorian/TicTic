@@ -1,3 +1,11 @@
 {
-  "appTitle": "Application TicTic (en)"
+  "appTitle": "Application TicTic (en)",
+  "welcomeMessage1": "Financial harmony in your groups, made easy!",
+  "welcomeMessage2": "Instant calculations, guaranteed fairness with TicTic!",
+  "welcomeMessage3": "Tedious calculations? No thanks. Choose simplicity with TicTic!",
+  "welcomeMessage4": "TicTic: Share your expenses with ease!",
+  "continueWithOutLogin": "Continue without login",
+  "or": "or",
+  "login": "Login",
+  "register": "Register"
 }

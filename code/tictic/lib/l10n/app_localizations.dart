@@ -100,6 +100,54 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Application TicTic (en)'**
   String get appTitle;
+
+  /// No description provided for @welcomeMessage1.
+  ///
+  /// In en, this message translates to:
+  /// **'Financial harmony in your groups, made easy!'**
+  String get welcomeMessage1;
+
+  /// No description provided for @welcomeMessage2.
+  ///
+  /// In en, this message translates to:
+  /// **'Instant calculations, guaranteed fairness with TicTic!'**
+  String get welcomeMessage2;
+
+  /// No description provided for @welcomeMessage3.
+  ///
+  /// In en, this message translates to:
+  /// **'Tedious calculations? No thanks. Choose simplicity with TicTic!'**
+  String get welcomeMessage3;
+
+  /// No description provided for @welcomeMessage4.
+  ///
+  /// In en, this message translates to:
+  /// **'TicTic: Share your expenses with ease!'**
+  String get welcomeMessage4;
+
+  /// No description provided for @continueWithOutLogin.
+  ///
+  /// In en, this message translates to:
+  /// **'Continue without login'**
+  String get continueWithOutLogin;
+
+  /// No description provided for @or.
+  ///
+  /// In en, this message translates to:
+  /// **'or'**
+  String get or;
+
+  /// No description provided for @login.
+  ///
+  /// In en, this message translates to:
+  /// **'Login'**
+  String get login;
+
+  /// No description provided for @register.
+  ///
+  /// In en, this message translates to:
+  /// **'Register'**
+  String get register;
 }
 
 class _AppLocalizationsDelegate extends LocalizationsDelegate<AppLocalizations> {
