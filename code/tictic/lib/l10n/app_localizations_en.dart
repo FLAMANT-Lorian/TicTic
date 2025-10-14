@@ -34,4 +34,30 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get register => 'Register';
+
+  @override
+  String get username_label => 'Username';
+
+  @override
+  String get username_placeholder => 'Jhon Doe';
+
+  @override
+  String get user_email_label => 'E-mail address';
+
+  @override
+  String get user_email_placeholder => 'jhon@doe.be';
+
+  @override
+  String get user_password_label => 'Password';
+
+  @override
+  String form_field_required(String field_name) {
+    return 'The field \"$field_name\" is required.';
+  }
+
+  @override
+  String get do_not_have_button => 'I don\'t have an account';
+
+  @override
+  String get already_have_account_button => 'I already have an account';
 }

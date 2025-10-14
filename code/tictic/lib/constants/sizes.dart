@@ -3,10 +3,13 @@ const kVerticalSpacing = 20.0;
 
 const kTextSliderHeight = 60.0;
 
+const kBorderWidth = 2.0;
+
 const kSliderButtonWidth = 50.0;
 const kSliderButtonHeight = 3.0;
 
 const kBorderRadius = 12.0;
+const kBorderRadiusInput = 24.0;
 
 const kDividerHeight = 3.0;
 

@@ -34,4 +34,30 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get register => 'Inscription';
+
+  @override
+  String get username_label => 'Nom d’utilisateur';
+
+  @override
+  String get username_placeholder => 'Jhon Doe';
+
+  @override
+  String get user_email_label => 'Adresse e-mail';
+
+  @override
+  String get user_email_placeholder => 'jhon@doe.be';
+
+  @override
+  String get user_password_label => 'Mot de passe';
+
+  @override
+  String form_field_required(String field_name) {
+    return 'Le champ \"$field_name\" est requis.';
+  }
+
+  @override
+  String get do_not_have_button => 'Je n\'ai pas encore de compte';
+
+  @override
+  String get already_have_account_button => 'J\'ai déjà un compte';
 }

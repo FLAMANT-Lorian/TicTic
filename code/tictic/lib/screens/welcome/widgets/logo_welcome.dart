@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+import 'package:tictic/screens/welcome/welcome.dart';
 
 import '../../../constants/sizes.dart';
 
@@ -8,11 +9,16 @@ class LogoWelcome extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return SvgPicture.asset(
-      'assets/icons/logo.svg',
-      height: MediaQuery.of(context).size.height * kLogoRatioWelcome,
-      width: MediaQuery.of(context).size.width * kLogoRatioWelcome,
-      semanticsLabel: 'Le logo de TicTic',
+    return GestureDetector(
+      onTap: (){
+        Navigator.pushNamed(context, Welcome.routeName);
+      },
+      child: SvgPicture.asset(
+        'assets/icons/logo.svg',
+        height: MediaQuery.of(context).size.height * kLogoRatioWelcome,
+        width: MediaQuery.of(context).size.width * kLogoRatioWelcome,
+        semanticsLabel: 'Le logo de TicTic',
+      ),
     );
   }
 }

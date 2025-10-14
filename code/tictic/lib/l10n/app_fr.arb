@@ -7,5 +7,22 @@
   "continueWithOutLogin": "Continuer sans compte",
   "or": "ou",
   "login": "Connexion",
-  "register": "Inscription"
+  "register": "Inscription",
+  "username_label": "Nom d’utilisateur",
+  "username_placeholder" : "Jhon Doe",
+  "user_email_label": "Adresse e-mail",
+  "user_email_placeholder" : "jhon@doe.be",
+  "user_password_label": "Mot de passe",
+  "form_field_required" : "Le champ \"{field_name}\" est requis.",
+  "@form_field_required": {
+    "description": "Error message when a form field is required",
+    "placeholders": {
+      "field_name": {
+        "type": "String",
+        "example": "Username"
+      }
+    }
+  },
+  "do_not_have_button": "Je n'ai pas encore de compte",
+  "already_have_account_button": "J'ai déjà un compte"
 }
