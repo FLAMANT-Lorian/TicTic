@@ -15,7 +15,7 @@ class PasswordInput extends StatelessWidget {
       validator: (value) {
         if(value == null || value.isEmpty){
           return AppLocalizations.of(context)!.form_field_required(AppLocalizations.of(context)!.user_password_label);
-        };
+        }
       },
     );
   }

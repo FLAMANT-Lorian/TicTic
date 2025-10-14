@@ -5,7 +5,6 @@ import 'package:tictic/l10n/app_localizations.dart';
 import 'package:tictic/screens/login/login.dart';
 import 'package:tictic/screens/scaffold_with_image.dart';
 import 'package:tictic/screens/welcome/widgets/logo_welcome.dart';
-import 'package:tictic/screens/welcome/widgets/text_divider.dart';
 import 'package:tictic/widgets/form/email_input.dart';
 import 'package:tictic/widgets/form/password_input.dart';
 import 'package:tictic/widgets/form/username_input.dart';
