@@ -9,8 +9,10 @@ class MyTextInput extends StatelessWidget {
     this.prefixIcon,
     this.validator,
     this.hintText,
-    required this.labelText, this.keyboardType,
+    this.keyboardType,
     this.obscureText = false,
+    this.suffixIcon,
+    required this.labelText,
   });
 
   final Widget? prefixIcon;
@@ -19,6 +21,7 @@ class MyTextInput extends StatelessWidget {
   final String? Function(String?)? validator;
   final TextInputType? keyboardType;
   final bool obscureText;
+  final Widget? suffixIcon;
 
   @override
   Widget build(BuildContext context) {
@@ -28,6 +31,7 @@ class MyTextInput extends StatelessWidget {
       validator: validator,
       decoration: InputDecoration(
         prefixIcon: prefixIcon,
+        suffixIcon: suffixIcon,
         label: Container(
           padding: EdgeInsets.symmetric(
             horizontal: kHorizontalPaddingXS,
